@@ -1,0 +1,17 @@
+* {
+    font-family: "roboto";
+}
+
+.header, .one {
+    background-color: #1f2937;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+.three {
+    background-color: #e5e7eb;
+}
