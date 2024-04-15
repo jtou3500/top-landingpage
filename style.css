@@ -2,16 +2,54 @@
     font-family: "roboto";
 }
 
-.header, .one {
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/* Header */
+
+.header{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-container {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: 16px 48px
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    flex-shrink: 0;
+    font-weight: 600;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+    flex-shrink: 0;
+}
+
+/* hero text */
+
+.one {
     background-color: #1f2937;
 }
 
-.hero-text {
-    font-size: 48px;
-    font-weight: extra-bold;
-    color: #f9faf8;
-}
-
-.three {
-    background-color: #e5e7eb;
+div {
+    border: 1px red solid;
 }
