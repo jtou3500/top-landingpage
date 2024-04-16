@@ -12,16 +12,17 @@ body {
 .header{
     background-color: #1f2937;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 16px 128px;
     align-items: center;
 }
-
+/*
 .head-container {
     display: flex;
     justify-content: space-between;
     width: 75%;
-    margin: 16px 48px
-}
+    padding: 16px 48px
+}*/
 
 .logo {
     font-size: 24px;
@@ -48,8 +49,178 @@ a {
 
 .one {
     background-color: #1f2937;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 80px 128px;
 }
 
-div {
-    border: 1px red solid;
+.hero-container {
+    flex: 1;
+
+}
+
+.image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightslategray;
+}
+
+.image p {
+    color: #e5e7eb;
+}
+
+.hero-text {
+    color: #f9faf8;
+    font-size: 48px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.sub-hero {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.hero-container button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: none;
+    width: 85px;
+    height: 25px;
+}
+
+/* random info */
+
+.two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 64px;
+}
+
+.two h1 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 48px;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
+
+.content p {
+    text-align: center;
+    margin-top: 4px;
+    color: #e5e7eb;
+    padding-bottom: 0;
+}
+
+.content {
+    width: 150px;
+}
+
+/* quote */
+
+.three {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+
+.quote {
+    padding: 64px 128px;
+    font-size: 32px;
+    font-weight: 100;
+    margin: 0;
+    padding-bottom: 0;
+}
+
+.thor {
+    padding-right: 148px;
+    margin-top: 0;
+    margin-bottom: 78px;
+    font-weight: bold;
+}
+
+/* call to action */
+
+.four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action {
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    padding: 36px 128px;
+    border-radius: 8px;
+    margin: 48px;
+    gap: 128px;
+}
+
+.call-to-action .text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.head-text {
+    font-weight: bold;
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+}
+
+#signup {
+    font-size: 18px;
+    margin: 0;
+    flex-shrink: 0;
+}
+
+.call-to-action button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: none;
+    width: 100px;
+    height: 28px;
+    border: 2px solid white;
+}
+
+/* footer */
+
+footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+}
+
+footer p {
+    color: #f9faf8;
+    font-size: 12px;
 }
